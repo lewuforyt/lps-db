@@ -1,1 +1,1 @@
-worker: python dosya.py
+workers: python dosya.py
