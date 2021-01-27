@@ -30,7 +30,7 @@ def stations():
 def ara():
     key = request.args.get("search")
     
-    kim_o = request.headers.get('kim_o')
+    kim_o = request.headers.get('client')
 
     if kim_o == "lps-project":
 
