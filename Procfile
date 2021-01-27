@@ -1,1 +1,1 @@
-workers: python dosya.py
+web: gunicorn app:app
